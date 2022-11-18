@@ -1,0 +1,250 @@
+logs = """
+Standard Error Stream:
+Init: 13 29 5
+moves:  _ # _ # 5 2 23 2 3 10 25 10 13 6 
+previous_position: (None, None) current_position: (13, 6) previous_move: None
+player_moved: True
+invalid_positions:set()
+valid_positions:{(3, 10), (5, 2), (13, 6), (23, 2), (25, 10)}
+Standard Output Stream:
+E
+01
+25
+Standard Error Stream:
+moves:  _ # _ # 5 2 23 2 3 9 25 9 13 6 
+previous_position: (13, 6) current_position: (13, 6) previous_move: E
+player_moved: False
+invalid_positions:{(12, 6)}
+valid_positions:{(25, 9), (3, 10), (5, 2), (3, 9), (13, 6), (23, 2), (25, 10)}
+Standard Output Stream:
+D
+02
+25
+Standard Error Stream:
+moves:  _ _ _ _ 5 2 23 2 4 9 24 9 13 7 
+previous_position: (13, 6) current_position: (13, 7) previous_move: D
+player_moved: True
+invalid_positions:{(12, 6)}
+valid_positions:{(25, 9), (13, 7), (4, 9), (3, 10), (5, 2), (24, 9), (3, 9), (13, 6), (23, 2), (25, 10)}
+Standard Output Stream:
+A
+03
+25
+Standard Error Stream:
+moves:  # _ # _ 5 2 23 2 5 9 23 9 14 7 
+previous_position: (13, 7) current_position: (14, 7) previous_move: A
+player_moved: True
+invalid_positions:{(12, 6)}
+valid_positions:{(25, 9), (13, 7), (4, 9), (14, 7), (3, 10), (23, 9), (5, 2), (24, 9), (3, 9), (13, 6), (23, 2), (5, 9), (25, 10)}
+Standard Output Stream:
+D
+04
+25
+Standard Error Stream:
+moves:  # _ # _ 5 2 23 2 6 9 22 9 14 7 
+previous_position: (14, 7) current_position: (14, 7) previous_move: D
+player_moved: False
+invalid_positions:{(12, 6), (14, 8)}
+valid_positions:{(25, 9), (13, 7), (4, 9), (14, 7), (3, 10), (23, 9), (5, 2), (24, 9), (3, 9), (13, 6), (23, 2), (5, 9), (22, 9), (6, 9), (25, 10)}
+Standard Output Stream:
+C
+05
+25
+Standard Error Stream:
+moves:  # _ # _ 5 2 23 2 7 9 21 9 14 7 
+previous_position: (14, 7) current_position: (14, 7) previous_move: C
+player_moved: False
+invalid_positions:{(14, 6), (12, 6), (14, 8)}
+valid_positions:{(25, 9), (13, 7), (4, 9), (14, 7), (21, 9), (3, 10), (23, 9), (7, 9), (5, 2), (24, 9), (3, 9), (13, 6), (23, 2), (5, 9), (22, 9), (6, 9), (25, 10)}
+Standard Output Stream:
+A
+06
+25
+Standard Error Stream:
+moves:  _ _ _ _ 5 2 23 2 8 9 20 9 15 7 
+previous_position: (14, 7) current_position: (15, 7) previous_move: A
+player_moved: True
+invalid_positions:{(14, 6), (12, 6), (14, 8)}
+valid_positions:{(4, 9), (14, 7), (3, 10), (8, 9), (25, 10), (21, 9), (23, 9), (3, 9), (5, 9), (25, 9), (13, 7), (15, 7), (7, 9), (23, 2), (20, 9), (22, 9), (5, 2), (24, 9), (13, 6), (6, 9)}
+Standard Output Stream:
+C
+07
+25
+Standard Error Stream:
+moves:  _ # _ # 5 2 23 2 9 9 19 9 15 6 
+previous_position: (15, 7) current_position: (15, 6) previous_move: C
+player_moved: True
+invalid_positions:{(14, 6), (12, 6), (14, 8)}
+valid_positions:{(4, 9), (14, 7), (3, 10), (8, 9), (19, 9), (25, 10), (21, 9), (23, 9), (3, 9), (5, 9), (25, 9), (13, 7), (15, 7), (7, 9), (23, 2), (20, 9), (22, 9), (5, 2), (9, 9), (24, 9), (15, 6), (13, 6), (6, 9)}
+Standard Output Stream:
+A
+08
+25
+Standard Error Stream:
+moves:  _ # _ # 5 2 23 2 10 9 18 9 15 6 
+previous_position: (15, 6) current_position: (15, 6) previous_move: A
+player_moved: False
+invalid_positions:{(14, 6), (16, 6), (12, 6), (14, 8)}
+valid_positions:{(4, 9), (14, 7), (3, 10), (8, 9), (19, 9), (10, 9), (25, 10), (21, 9), (23, 9), (3, 9), (5, 9), (25, 9), (13, 7), (15, 7), (7, 9), (18, 9), (23, 2), (20, 9), (22, 9), (5, 2), (9, 9), (24, 9), (15, 6), (13, 6), (6, 9)}
+Standard Output Stream:
+C
+09
+25
+Standard Error Stream:
+moves:  _ _ _ _ 5 2 23 2 11 9 17 9 15 5 
+previous_position: (15, 6) current_position: (15, 5) previous_move: C
+player_moved: True
+invalid_positions:{(14, 6), (16, 6), (12, 6), (14, 8)}
+valid_positions:{(4, 9), (14, 7), (3, 10), (17, 9), (8, 9), (19, 9), (10, 9), (25, 10), (15, 5), (21, 9), (23, 9), (3, 9), (5, 9), (25, 9), (13, 7), (15, 7), (7, 9), (18, 9), (23, 2), (20, 9), (22, 9), (5, 2), (9, 9), (11, 9), (24, 9), (15, 6), (13, 6), (6, 9)}
+Standard Output Stream:
+C
+10
+25
+Standard Error Stream:
+moves:  _ # _ # 5 2 23 2 12 9 16 9 15 4 
+previous_position: (15, 5) current_position: (15, 4) previous_move: C
+player_moved: True
+invalid_positions:{(14, 6), (16, 6), (12, 6), (14, 8)}
+valid_positions:{(4, 9), (14, 7), (3, 10), (17, 9), (8, 9), (19, 9), (10, 9), (25, 10), (15, 5), (21, 9), (23, 9), (12, 9), (3, 9), (5, 9), (25, 9), (13, 7), (15, 4), (16, 9), (15, 7), (7, 9), (18, 9), (23, 2), (20, 9), (22, 9), (5, 2), (9, 9), (11, 9), (24, 9), (15, 6), (13, 6), (6, 9)}
+Standard Output Stream:
+E
+11
+25
+Standard Error Stream:
+moves:  _ # _ # 5 2 23 2 13 9 15 9 15 4 
+previous_position: (15, 4) current_position: (15, 4) previous_move: E
+player_moved: False
+invalid_positions:{(14, 8), (14, 4), (16, 6), (14, 6), (12, 6)}
+valid_positions:{(4, 9), (14, 7), (3, 10), (17, 9), (8, 9), (19, 9), (10, 9), (25, 10), (15, 5), (21, 9), (23, 9), (12, 9), (3, 9), (5, 9), (25, 9), (13, 7), (15, 4), (16, 9), (15, 7), (7, 9), (18, 9), (23, 2), (20, 9), (22, 9), (5, 2), (9, 9), (11, 9), (24, 9), (15, 6), (13, 9), (13, 6), (15, 9), (6, 9)}
+Standard Output Stream:
+C
+12
+25
+Standard Error Stream:
+moves:  _ _ _ _ 5 2 23 2 14 9 14 9 15 3 
+previous_position: (15, 4) current_position: (15, 3) previous_move: C
+player_moved: True
+invalid_positions:{(14, 8), (14, 4), (16, 6), (14, 6), (12, 6)}
+valid_positions:{(4, 9), (14, 7), (3, 10), (17, 9), (8, 9), (19, 9), (10, 9), (25, 10), (15, 5), (21, 9), (23, 9), (12, 9), (3, 9), (14, 9), (5, 9), (25, 9), (13, 7), (15, 4), (16, 9), (15, 7), (7, 9), (18, 9), (23, 2), (20, 9), (22, 9), (5, 2), (9, 9), (11, 9), (24, 9), (15, 6), (13, 9), (13, 6), (15, 3), (15, 9), (6, 9)}
+Standard Output Stream:
+E
+13
+25
+Standard Error Stream:
+moves:  # _ # _ 5 2 23 2 15 9 13 9 14 3 
+previous_position: (15, 3) current_position: (14, 3) previous_move: E
+player_moved: True
+invalid_positions:{(14, 8), (14, 4), (16, 6), (14, 6), (12, 6)}
+valid_positions:{(4, 9), (14, 7), (3, 10), (17, 9), (8, 9), (19, 9), (10, 9), (25, 10), (15, 5), (21, 9), (23, 9), (12, 9), (14, 3), (3, 9), (14, 9), (5, 9), (25, 9), (13, 7), (15, 4), (16, 9), (15, 7), (7, 9), (18, 9), (23, 2), (20, 9), (22, 9), (5, 2), (9, 9), (11, 9), (24, 9), (15, 6), (13, 9), (13, 6), (15, 3), (15, 9), (6, 9)}
+Standard Output Stream:
+C
+14
+25
+Standard Error Stream:
+moves:  # _ # _ 5 2 23 2 16 9 12 9 14 3 
+previous_position: (14, 3) current_position: (14, 3) previous_move: C
+player_moved: False
+invalid_positions:{(14, 8), (14, 4), (16, 6), (14, 6), (12, 6), (14, 2)}
+valid_positions:{(4, 9), (14, 7), (3, 10), (17, 9), (8, 9), (19, 9), (10, 9), (25, 10), (15, 5), (21, 9), (23, 9), (12, 9), (14, 3), (3, 9), (14, 9), (5, 9), (25, 9), (13, 7), (15, 4), (16, 9), (15, 7), (7, 9), (18, 9), (23, 2), (20, 9), (22, 9), (5, 2), (9, 9), (11, 9), (24, 9), (15, 6), (13, 9), (13, 6), (15, 3), (15, 9), (6, 9)}
+Standard Output Stream:
+E
+15
+25
+Standard Error Stream:
+moves:  _ _ _ _ 5 2 23 2 17 9 11 9 13 3 
+previous_position: (14, 3) current_position: (13, 3) previous_move: E
+player_moved: True
+invalid_positions:{(14, 8), (14, 4), (16, 6), (14, 6), (12, 6), (14, 2)}
+valid_positions:{(4, 9), (14, 7), (3, 10), (17, 9), (8, 9), (19, 9), (10, 9), (25, 10), (15, 5), (21, 9), (23, 9), (12, 9), (14, 3), (3, 9), (14, 9), (5, 9), (25, 9), (13, 7), (15, 4), (16, 9), (15, 7), (7, 9), (18, 9), (23, 2), (20, 9), (22, 9), (5, 2), (9, 9), (11, 9), (13, 3), (24, 9), (15, 6), (13, 9), (13, 6), (15, 3), (15, 9), (6, 9)}
+Standard Output Stream:
+D
+16
+25
+Standard Error Stream:
+moves:  _ # _ # 5 2 23 2 18 9 10 9 13 4 
+previous_position: (13, 3) current_position: (13, 4) previous_move: D
+player_moved: True
+invalid_positions:{(14, 8), (14, 4), (16, 6), (14, 6), (12, 6), (14, 2)}
+valid_positions:{(4, 9), (14, 7), (3, 10), (17, 9), (8, 9), (19, 9), (10, 9), (25, 10), (15, 5), (21, 9), (23, 9), (12, 9), (14, 3), (3, 9), (14, 9), (5, 9), (13, 4), (25, 9), (13, 7), (15, 4), (16, 9), (15, 7), (7, 9), (18, 9), (23, 2), (20, 9), (22, 9), (5, 2), (9, 9), (11, 9), (13, 3), (24, 9), (15, 6), (13, 9), (13, 6), (15, 3), (15, 9), (6, 9)}
+Standard Output Stream:
+E
+17
+25
+Standard Error Stream:
+moves:  _ # _ # 5 2 23 2 19 9 9 9 13 4 
+previous_position: (13, 4) current_position: (13, 4) previous_move: E
+player_moved: False
+invalid_positions:{(12, 4), (14, 8), (14, 4), (16, 6), (14, 6), (12, 6), (14, 2)}
+valid_positions:{(4, 9), (14, 7), (3, 10), (17, 9), (8, 9), (19, 9), (10, 9), (25, 10), (15, 5), (21, 9), (23, 9), (12, 9), (14, 3), (3, 9), (14, 9), (5, 9), (13, 4), (25, 9), (13, 7), (15, 4), (16, 9), (15, 7), (7, 9), (18, 9), (23, 2), (20, 9), (22, 9), (5, 2), (9, 9), (11, 9), (13, 3), (24, 9), (15, 6), (13, 9), (13, 6), (15, 3), (15, 9), (6, 9)}
+Standard Output Stream:
+D
+18
+25
+Standard Error Stream:
+moves:  _ _ _ _ 5 2 23 2 20 9 8 9 13 5 
+previous_position: (13, 4) current_position: (13, 5) previous_move: D
+player_moved: True
+invalid_positions:{(12, 4), (14, 8), (14, 4), (16, 6), (14, 6), (12, 6), (14, 2)}
+valid_positions:{(4, 9), (14, 7), (3, 10), (17, 9), (8, 9), (19, 9), (10, 9), (13, 5), (25, 10), (15, 5), (21, 9), (23, 9), (12, 9), (14, 3), (3, 9), (14, 9), (5, 9), (13, 4), (25, 9), (13, 7), (15, 4), (16, 9), (15, 7), (7, 9), (18, 9), (23, 2), (20, 9), (22, 9), (5, 2), (9, 9), (11, 9), (13, 3), (24, 9), (15, 6), (13, 9), (13, 6), (15, 3), (15, 9), (6, 9)}
+Standard Output Stream:
+E
+19
+25
+Standard Error Stream:
+moves:  # _ # _ 5 2 23 2 21 9 7 9 12 5 
+previous_position: (13, 5) current_position: (12, 5) previous_move: E
+player_moved: True
+invalid_positions:{(12, 4), (14, 8), (14, 4), (16, 6), (14, 6), (12, 6), (14, 2)}
+valid_positions:{(4, 9), (14, 7), (3, 10), (17, 9), (8, 9), (19, 9), (10, 9), (13, 5), (25, 10), (15, 5), (21, 9), (23, 9), (12, 9), (14, 3), (3, 9), (14, 9), (5, 9), (13, 4), (25, 9), (13, 7), (15, 4), (16, 9), (15, 7), (7, 9), (18, 9), (23, 2), (20, 9), (12, 5), (22, 9), (5, 2), (9, 9), (11, 9), (13, 3), (24, 9), (15, 6), (13, 9), (13, 6), (15, 3), (15, 9), (6, 9)}
+Standard Output Stream:
+E
+20
+25
+Standard Error Stream:
+moves:  _ _ _ _ 5 2 23 2 21 8 7 8 11 5 
+previous_position: (12, 5) current_position: (11, 5) previous_move: E
+player_moved: True
+invalid_positions:{(12, 4), (14, 8), (14, 4), (16, 6), (14, 6), (12, 6), (14, 2)}
+valid_positions:{(4, 9), (14, 7), (3, 10), (17, 9), (8, 9), (19, 9), (11, 5), (10, 9), (13, 5), (25, 10), (15, 5), (21, 9), (23, 9), (12, 9), (14, 3), (3, 9), (14, 9), (5, 9), (13, 4), (25, 9), (13, 7), (15, 4), (16, 9), (15, 7), (7, 9), (18, 9), (23, 2), (20, 9), (21, 8), (12, 5), (22, 9), (5, 2), (9, 9), (11, 9), (13, 3), (24, 9), (15, 6), (13, 9), (13, 6), (15, 3), (15, 9), (6, 9), (7, 8)}
+Standard Output Stream:
+E
+21
+25
+Standard Error Stream:
+moves:  # _ # _ 5 2 23 2 21 7 7 7 10 5 
+previous_position: (11, 5) current_position: (10, 5) previous_move: E
+player_moved: True
+invalid_positions:{(12, 4), (14, 8), (14, 4), (16, 6), (14, 6), (12, 6), (14, 2)}
+valid_positions:{(4, 9), (14, 7), (3, 10), (17, 9), (8, 9), (19, 9), (11, 5), (10, 9), (13, 5), (25, 10), (15, 5), (7, 7), (21, 9), (23, 9), (12, 9), (14, 3), (3, 9), (14, 9), (5, 9), (10, 5), (13, 4), (25, 9), (13, 7), (15, 4), (16, 9), (15, 7), (7, 9), (18, 9), (23, 2), (20, 9), (21, 8), (12, 5), (22, 9), (5, 2), (9, 9), (11, 9), (13, 3), (24, 9), (15, 6), (13, 9), (13, 6), (15, 3), (15, 9), (6, 9), (7, 8), (21, 7)}
+Standard Output Stream:
+D
+22
+25
+Standard Error Stream:
+moves:  # _ # _ 5 2 23 2 20 7 7 6 10 5 
+previous_position: (10, 5) current_position: (10, 5) previous_move: D
+player_moved: False
+invalid_positions:{(12, 4), (14, 8), (14, 4), (16, 6), (14, 6), (12, 6), (10, 6), (14, 2)}
+valid_positions:{(4, 9), (14, 7), (3, 10), (17, 9), (8, 9), (19, 9), (11, 5), (10, 9), (13, 5), (25, 10), (15, 5), (7, 7), (21, 9), (20, 7), (23, 9), (12, 9), (14, 3), (3, 9), (14, 9), (5, 9), (10, 5), (13, 4), (25, 9), (13, 7), (15, 4), (16, 9), (15, 7), (7, 9), (18, 9), (7, 6), (23, 2), (20, 9), (21, 8), (12, 5), (22, 9), (5, 2), (9, 9), (11, 9), (13, 3), (24, 9), (15, 6), (13, 9), (13, 6), (15, 3), (15, 9), (6, 9), (7, 8), (21, 7)}
+Standard Output Stream:
+C
+23
+25
+Standard Error Stream:
+moves:  # _ # _ 5 2 23 2 19 7 7 5 10 5 
+previous_position: (10, 5) current_position: (10, 5) previous_move: C
+player_moved: False
+invalid_positions:{(12, 4), (14, 8), (14, 4), (10, 4), (16, 6), (14, 6), (12, 6), (10, 6), (14, 2)}
+valid_positions:{(4, 9), (14, 7), (3, 10), (17, 9), (8, 9), (19, 9), (11, 5), (10, 9), (13, 5), (25, 10), (15, 5), (7, 7), (21, 9), (20, 7), (23, 9), (12, 9), (14, 3), (3, 9), (14, 9), (5, 9), (10, 5), (13, 4), (25, 9), (13, 7), (15, 4), (16, 9), (15, 7), (7, 9), (18, 9), (7, 6), (23, 2), (20, 9), (21, 8), (12, 5), (22, 9), (5, 2), (9, 9), (19, 7), (11, 9), (13, 3), (24, 9), (15, 6), (13, 9), (13, 6), (15, 3), (15, 9), (7, 5), (6, 9), (7, 8), (21, 7)}
+Standard Output Stream:
+E
+24
+25
+Standard Error Stream:
+moves:  _ _ _ _ 5 2 23 2 18 7 8 5 9 5 
+previous_position: (10, 5) current_position: (9, 5) previous_move: E
+player_moved: True
+invalid_positions:{(12, 4), (14, 8), (14, 4), (10, 4), (16, 6), (14, 6), (12, 6), (10, 6), (14, 2)}
+valid_positions:{(4, 9), (14, 7), (3, 10), (17, 9), (9, 5), (8, 9), (19, 9), (11, 5), (10, 9), (13, 5), (25, 10), (15, 5), (7, 7), (18, 7), (21, 9), (20, 7), (23, 9), (12, 9), (14, 3), (3, 9), (14, 9), (5, 9), (8, 5), (10, 5), (13, 4), (25, 9), (13, 7), (15, 4), (16, 9), (15, 7), (7, 9), (18, 9), (7, 6), (23, 2), (20, 9), (21, 8), (12, 5), (22, 9), (5, 2), (9, 9), (19, 7), (11, 9), (13, 3), (24, 9), (15, 6), (13, 9), (13, 6), (15, 3), (15, 9), (7, 5), (6, 9), (7, 8), (21, 7)}
+Standard Output Stream:
+E"""
